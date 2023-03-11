@@ -31,9 +31,20 @@
 //     return result
 // }
 // console.log(checkNumber())
-function age(x){
-    console.log('คุณมีอายุเท่ากับ ',x)
+// function age(x){
+//     console.log('คุณมีอายุเท่ากับ ',x)
+// }
+
+// default Parameters
+function total(){
+    let vat = 7
+    let prompt = require('prompt-sync')()
+    let q = parseInt(prompt('ระบุจำนวนปริมาณ >> '))
+    let p = parseInt(prompt('ระบุราคา >>'))
+    result = (q*p*(1+vat/100)).toFixed(2)
+    console.log('ราคาที่คุณจำเป็นจะต้องจ่ายเท่ากับ '+result) 
 }
+total()
 
 
 
