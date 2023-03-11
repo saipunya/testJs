@@ -31,7 +31,9 @@
 //     return result
 // }
 // console.log(checkNumber())
-
+function age(x){
+    console.log('คุณมีอายุเท่ากับ ',x)
+}
 
 
 
