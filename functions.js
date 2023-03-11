@@ -44,7 +44,7 @@ function total(){
     result = (q*p*(1+vat/100)).toFixed(2)
     console.log('ราคาที่คุณจำเป็นจะต้องจ่ายเท่ากับ '+result) 
 }
-total()
+//total()
 
 
 
