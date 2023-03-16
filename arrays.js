@@ -15,3 +15,5 @@ console.log(a)
 for (k of oddNumbers){
     console.log(k)
 }
+var thaiDigits = ['๐','๑','๒','๓','๔','๕','๖','๗','๘','๙'];
+var words = ['หนึ่ง','สอง','สาม']
